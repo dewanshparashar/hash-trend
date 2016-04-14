@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>HASHTREND- Sentiment Analysis and Ranking Algorithm</title>
+	 
+	<link href="css/bootstrap.css" rel="stylesheet">
+	 
+	<link href="css/main.css" rel="stylesheet">
+ 
+	<!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	  <script src="js/respond.min.js"></script>
+	<![endif]-->
+ 
+	<link rel="shortcut icon" href="images/favicon.png">
+	<script src="js/pace.js"></script>
+ 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="preloader"></div>
+	
+    <! -- ******************** NAV BAR SECTION ******************** -->	
+
+    <<div id="nav-bar">
+			<a href="index.html">
+				<div id="logo_div">
+					<img src="images/logo_green.png" />
+				</div>
+			</a>
+			<div id="nav_rt_panel">
+					<div id="nav_tab_2">
+						<a href="about_us.html">
+						ABOUT US
+						</a>
+					</div>
+				
+				
+					<div id="nav_tab_2">
+						<a href="tweets.html">
+						TOP TWEETS
+						</a>
+					</div>
+				
+					<div id="nav_tab_2">
+						<a href="index.html">
+						HOME
+						</a>
+					</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+    <! -- ******************** MASTHEAD SECTION ******************** -->	
+	<main id="top" class="masthead" role="main">
+		<div class="container">
+			
+			<div id="content_normal_page">
+				<div id="content_heading">
+					Top Tweets
+				</div>
+				<div id="content_normal_text">
+					insert 60-70 word content here
+				</div>
+			</div>
+
+		</div><! --/container -->
+	</main><! --/main -->
+ 
+
+	<div id="tweet_wrapper">
+		<div id="tweet_box">
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Shah Rukh Khan poses with his Madame Tussauds wax figure in London ahead of the release of his new film &#39;Fan&#39; <a href="https://t.co/RBSy5a1kVl">pic.twitter.com/RBSy5a1kVl</a></p>&mdash; Business Standard (@bsindia) <a href="https://twitter.com/bsindia/status/720277472525168640">April 13, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		<div id="tweet_box">
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Kicked out of Maharashtra: How Bombay High Court order will affect IPL 2016 <a href="https://t.co/3hrYaB0Nxb">https://t.co/3hrYaB0Nxb</a> <a href="https://t.co/FPNBY5Ovi5">pic.twitter.com/FPNBY5Ovi5</a></p>&mdash; Business Standard (@bsindia) <a href="https://twitter.com/bsindia/status/720503695927033856">April 14, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		<div id="tweet_box">
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Paying homage to Dr. B.R Ambedkar, principal architect of the Constitution of India, on his 125th Birth Anniversary <a href="https://t.co/3V3parjnST">pic.twitter.com/3V3parjnST</a></p>&mdash; Paytm (@Paytm) <a href="https://twitter.com/Paytm/status/720476917552517120">April 14, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		<div id="tweet_box">
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Major aftershocks and fires in Kumamoto, southern Japan, after 6.4 magnitude earthquake <a href="https://t.co/f8ukbQpbXT">pic.twitter.com/f8ukbQpbXT</a></p>&mdash; Anna Fifield (@annafifield) <a href="https://twitter.com/annafifield/status/720609757090844672">April 14, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		
+	</div>
+ 
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/nicescroll.js"></script>
+ 
+ 
+<script>
+
+
+ $(function() {
+    $('.scrollto, .gototop').bind('click',function(event){
+		 var $anchor = $(this);
+		 $('html, body').stop().animate({
+         scrollTop: $($anchor.attr('href')).offset().top
+          }, 1500,'easeInOutExpo');
+     event.preventDefault();
+      });
+  });
+        
+
+</script>
+ 
+</body>
+</html>
