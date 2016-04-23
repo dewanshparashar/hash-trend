@@ -732,4 +732,118 @@ padding: 40px 15px;
 
 }
 
+.about_me_wrapper{
+	position: relative;
+	border: 1px solid #bdbdbd;
+	width: 70%;
+	margin: auto;
+	min-height: 300px;
+	height: auto;
+	margin-top: 100px;
+	padding: 50px;
+	padding-top: 50px;
+	text-align: right;
+	border-radius: 20px;
+
+}
+
+.about_me_photo{
+	position: absolute;
+	//border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	top: -100px;
+	margin: auto;
+	background: white;
+
+}
+
+.about_me_photo img{
+	width: 100%;
+}
+
+.about_me_header{
+	position: absolute;
+	//border: 1px solid black;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	height: 100px;
+	top: -50px;
+	margin: auto;
+	background: white;
+	margin-left: 30%;
+	font-size: 50px;
+	color: black;
+	text-align:right;
+}
+
+.about_me_text{
+	position: relative;
+	//border: 1px solid black;
+	width: 60%;
+	float: right;
+	height: auto;
+}
+
+
+	#footer{
+		width: 100%;
+		height: auto;
+		background: #2d2729;
+		//text-align: center;
+	}
+
+	#footer_mid_column{
+		position: relative;
+		width: 100%; /* make this 33% later, while adding last column */
+		height: auto;
+		margin: auto;
+		//margin-left: 33%; /* comment it later, while adding last column */
+		//border: 1px solid white;
+		text-align: center;
+		opacity: 0.5;
+		padding: 20px;
+	}
+
+	#footer_first_column{
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+		margin-top: 0px;
+		float: left;
+		border-bottom: 1px solid #6c6c6c;
+		text-align: center;
+		opacity: 0.5;
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
+		color: #efefef;
+		padding: 30px;
+	}
+
+	.mail_id{
+		font-size: 25px;
+		color: white;
+		margin-top: 15px;
+		opacity: 1;
+	}
+
+	#zp_footer_logo{
+		width: 100%;
+	}
+
+	#zp_footer_logo img{
+		margin-top: 30px;
+		width: 15%; /* make this 40% later, while adding last column */
+	}
+
+	#zp_footer_copyright_text{
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
+		color: #efefef;
+	}
+
+
 
